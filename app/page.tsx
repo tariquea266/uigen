@@ -428,10 +428,23 @@ export default function Home() {
             <div style={{ width: 34, height: 34, borderRadius: 10, background: "#2563eb", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
               <span style={{ fontSize: 12, fontWeight: 900, color: "white" }}>A2</span>
             </div>
-            <div>
+            <div style={{ flex: 1 }}>
               <h1 style={{ color: "#111", fontSize: 16, fontWeight: 800, lineHeight: 1 }}>A2UI · AG-UI</h1>
               <p style={{ color: "#9ca3af", fontSize: 10, letterSpacing: 2 }}>GROQ + LLAMA 3.3 · LIVE</p>
             </div>
+            <a
+              href="https://github.com/tariquea266"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: "flex", alignItems: "center", gap: 6, padding: "5px 12px", border: "1px solid #e5e7eb", borderRadius: 99, textDecoration: "none", background: "white", flexShrink: 0 }}
+              onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = "#2563eb"; (e.currentTarget as HTMLElement).style.color = "#2563eb"; }}
+              onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = "#e5e7eb"; }}
+            >
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="#6b7280" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <span style={{ fontSize: 12, color: "#6b7280", fontWeight: 500 }}>Tarique</span>
+            </a>
           </div>
 
           {/* Rendered component or empty state */}
