@@ -270,7 +270,7 @@ function ChatPanel({
 }: {
   messages: Message[]; loading: boolean; input: string;
   setInput: (v: string) => void; send: (text?: string) => void;
-  bottomRef: React.RefObject<HTMLDivElement>; onClose?: () => void; isMobile: boolean;
+  bottomRef: React.RefObject<HTMLDivElement | null>; onClose?: () => void; isMobile: boolean;
 }) {
   return (
     <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: "white" }}>
