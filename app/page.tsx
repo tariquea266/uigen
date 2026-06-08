@@ -58,7 +58,7 @@ export default function Home() {
               href="https://github.com/tariquea266"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ display:"flex", alignItems:"center", gap:6, padding:"5px 12px", border:"1px solid #e5e7eb", borderRadius:99, textDecoration:"none", background:"white", flexShrink:0 }}
+              style={{ display:"none", alignItems:"center", gap:6, padding:"5px 12px", border:"1px solid #e5e7eb", borderRadius:99, textDecoration:"none", background:"white", flexShrink:0 }}
               onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.borderColor = "#2563eb"; }}
               onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.borderColor = "#e5e7eb"; }}
             >
