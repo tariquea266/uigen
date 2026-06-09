@@ -2,7 +2,7 @@ import { CardData } from "@/types";
 
 export default function CardWidget({ title, price, description, badge }: CardData) {
   return (
-    <div style={{ background: "white", border: "1px solid #c5c5c5", borderRadius: 20, padding: 24, textAlign: "center", boxShadow: "0 4px 20px rgba(0,0,0,0.08)" }}>
+    <div style={{ background: "white", border: "1px solid #dadada", borderRadius: 20, padding: 24, textAlign: "center", boxShadow: "0 4px 20px rgba(0,0,0,0.08)" }}>
       {badge && (
         <span style={{ display: "inline-block", padding: "4px 12px", background: "#eff6ff", border: "1px solid #bfdbfe", borderRadius: 99, color: "#2563eb", fontSize: 11, letterSpacing: 2, marginBottom: 12 }}>
           {badge}
