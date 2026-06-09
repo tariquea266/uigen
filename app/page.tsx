@@ -81,7 +81,7 @@ export default function Home() {
 
         {/* ── Right — Desktop sidebar ───────────────────────────────────── */}
         {!isMobile && (
-          <div style={{ width:340, borderLeft:"1px solid #e5e7eb", display:"flex", flexDirection:"column", flexShrink:0 }}>
+          <div style={{ width:340, borderLeft:"1px solid #c5c5c5", display:"flex", flexDirection:"column", flexShrink:0 }}>
             <ChatPanel
               messages={messages} loading={loading}
               input={input} setInput={setInput} send={handleSend}
