@@ -86,7 +86,7 @@ export default function ChatPanel({
           <button
             key={s.cmd}
             onClick={() => send(s.cmd)}
-            style={{ background: "#f9fafb", border: "1px solid #a8a8a8", borderRadius: 99, padding: "4px 10px", fontSize: 11, color: "#6b7280", cursor: "pointer" }}
+            style={{ background: "#f9fafb", border: "1px solid #d9d9d9", borderRadius: 99, padding: "4px 10px", fontSize: 11, color: "#6b7280", cursor: "pointer" }}
           >
             {s.icon} {s.label}
           </button>
@@ -94,8 +94,8 @@ export default function ChatPanel({
       </div>
 
       {/* Input */}
-      <div style={{ padding: 12, borderTop: "1px solid #a8a8a8", background: "white", flexShrink: 0 }}>
-        <div style={{ display: "flex", gap: 8, background: "#f9fafb", border: "1px solid #a8a8a8", borderRadius: 14, padding: "5px 5px 5px 14px", alignItems: "center" }}>
+      <div style={{ padding: 12, borderTop: "1px solid #d0d0d0", background: "white", flexShrink: 0 }}>
+        <div style={{ display: "flex", gap: 8, background: "#f9fafb", border: "1px solid #d9d9d9", borderRadius: 14, padding: "5px 5px 5px 14px", alignItems: "center" }}>
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
