@@ -21,7 +21,7 @@ export default function ChatPanel({
     <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: "white" }}>
 
       {/* Header */}
-      <div style={{ padding: "14px 16px", borderBottom: "1px solid #a8a8a8", display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
+      <div style={{ padding: "14px 16px", borderBottom: "1px solid #c5c5c5", display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
         <div style={{ width: 8, height: 8, borderRadius: "50%", background: loading ? "#f59e0b" : "#22c55e" }} />
         <span style={{ color: "#111", fontWeight: 600, fontSize: 14, flex: 1 }}>Chat</span>
         <span style={{ color: "#9ca3af", fontSize: 11, fontFamily: "monospace" }}>
@@ -81,7 +81,7 @@ export default function ChatPanel({
       </div>
 
       {/* Quick chips */}
-      <div style={{ padding: "8px 10px", borderTop: "1px solid #a8a8a8", display: "flex", gap: 6, flexWrap: "wrap", background: "white", flexShrink: 0 }}>
+      <div style={{ padding: "8px 10px", borderTop: "1px solid #c5c5c5", display: "flex", gap: 6, flexWrap: "wrap", background: "white", flexShrink: 0 }}>
         {SUGGESTIONS.slice(0, 3).map((s) => (
           <button
             key={s.cmd}
@@ -94,7 +94,7 @@ export default function ChatPanel({
       </div>
 
       {/* Input */}
-      <div style={{ padding: 12, borderTop: "1px solid #d0d0d0", background: "white", flexShrink: 0 }}>
+      <div style={{ padding: 12, borderTop: "1px solid #c5c5c5", background: "white", flexShrink: 0 }}>
         <div style={{ display: "flex", gap: 8, background: "#f9fafb", border: "1px solid #d9d9d9", borderRadius: 14, padding: "5px 5px 5px 14px", alignItems: "center" }}>
           <input
             value={input}
